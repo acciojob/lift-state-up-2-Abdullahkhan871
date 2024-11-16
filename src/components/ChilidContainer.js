@@ -1,13 +1,13 @@
 import React from "react";
 
-const ChilidContainer = ({setValue}) => {
-    // setValue(32)
-    // console.log(check)
-    // check(5)
+const ChilidContainer = ({ setValue }) => {
+  // setValue(32)
+  // console.log(check)
+  // check(5)
   return (
-    <div>
+    <div className="child">
       <h2>Child Component</h2>
-      <input onChange={(eve)=> setValue(eve.target.value)}/>
+      <input onChange={(eve) => setValue(eve.target.value)} />
     </div>
   );
 };
