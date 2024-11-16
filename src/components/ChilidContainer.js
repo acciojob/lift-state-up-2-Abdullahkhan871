@@ -7,7 +7,7 @@ const ChilidContainer = ({ setValue }) => {
   return (
     <div className="child">
       <h2>Child Component</h2>
-      <input onChange={(eve) => setValue(eve.target.value)} />
+      <input type="text" onChange={(eve) => setValue(eve.target.value)} />
     </div>
   );
 };
